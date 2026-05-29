@@ -1,0 +1,39 @@
+node_modules/
+dist/
+.next/
+out/
+build/
+
+# env (секреты: пароль БД, JWT, ключи OAuth — НИКОГДА в гит)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# uploads (локальное хранилище файлов)
+apps/api/uploads/*
+!apps/api/uploads/.gitkeep
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# drizzle
+packages/db/drizzle/meta/_journal.json.bak
+
+# typescript / tooling
+*.tsbuildinfo
+.pnpm-store/
+coverage/
+.turbo/

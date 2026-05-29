@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1780058221228,
+      "tag": "0000_familiar_stepford_cuckoos",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1780059431911,
+      "tag": "0001_elite_senator_kelly",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1780060634707,
+      "tag": "0002_warm_mariko_yashida",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1780061382427,
+      "tag": "0003_simple_blazing_skull",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1780062150465,
+      "tag": "0004_mute_lilandra",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1780063075762,
+      "tag": "0005_public_shen",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1780063787725,
+      "tag": "0006_hard_franklin_storm",
+      "breakpoints": true
+    }
+  ]
+}

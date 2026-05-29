@@ -1,0 +1,24 @@
+{
+  "name": "social-network",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "dev:api": "pnpm --filter @sn/api dev",
+    "dev:web": "pnpm --filter @sn/web dev",
+    "build": "pnpm -r build",
+    "db:generate": "pnpm --filter @sn/db generate",
+    "db:migrate": "pnpm --filter @sn/db migrate",
+    "db:push": "pnpm --filter @sn/db push",
+    "db:studio": "pnpm --filter @sn/db studio",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
+  },
+  "packageManager": "pnpm@10.33.2"
+}
